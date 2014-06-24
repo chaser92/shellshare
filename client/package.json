@@ -1,0 +1,20 @@
+{
+  "name": "shellshare-client",
+  "version": "0.0.1",
+  "description": "ShellShare protocol client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*",
+    "start": "node index.js"
+  },
+  "dependencies": {
+  	"commander": "*",
+    "ws": "*",
+  	"express": "3.4.4",
+    "socket.io": "0.9.16",
+    "pty.js": "0.2.4",
+    "term.js": "0.0.3"
+  },
+  "author": "Chaser",
+  "license": "ISC"
+}
